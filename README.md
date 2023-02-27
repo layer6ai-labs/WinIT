@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://layer6.ai/"><img src="https://github.com/layer6ai-labs/DropoutNet/blob/master/logs/logobox.jpg" width="180"></a>
+<a href="https://layer6.ai/"><img src="https://github.com/layer6ai-labs/WinIT/blob/main/logobox.jpg" width="180"></a>
 </p>
 
 # WinIT
