@@ -2,12 +2,18 @@
 <a href="https://layer6.ai/"><img src="https://github.com/layer6ai-labs/WinIT/blob/main/logs/logobox.jpg" width="180"></a>
 </p>
 
-# WinIT
+## ICLR 2023 WinIT: Temporal Dependencies in Feature Importance for Time Series Prediction
 
-Code for paper "Temporal Dependencies in Feature Importance for Time Series Prediction" presented at
-the [ICLR 2023 Time Series Workshop](https://openreview.net/forum?id=C0q9oBc3n4)
+Authors: KK Leung, Clayton Rooke, Jonathan Smith, Saba Zuberi, [Maksims Volkovs](http://www.cs.toronto.edu/~mvolkovs)  
+[[paper](https://openreview.net/forum?id=C0q9oBc3n4)]
 
-### Set Up Environment
+## Introduction
+
+This repository contains a full implementation of the WinIT algorithm along with all the other
+results for comparison. It includes a notebook that demonstrates the reproducibility of
+the figures and graphs.
+
+## Environment
 
 ```commandline
 conda create -n winit python=3.8.11
@@ -31,9 +37,9 @@ After TimeSynth is installed, run the following to install the package.
 pip install -e .
 ```
 
-# Dataset Preparation
+## Dataset
 
-### Generate synthetic datasets
+### Synthetic datasets
 
 Our data are generated using the simulated data from [FIT Repo](https://github.com/sanatonek/time_series_explainability). 
 The data is already generated and is in the `./data/` directory.
@@ -63,7 +69,7 @@ to [the official MIMIC-III documentation](https://mimic.mit.edu/iii/gettingstart
   If everything happens properly, a file ``patient_vital_preprocessed.pkl`` is stored
   in ``./data/mimic``.
 
-# Run experiments
+## Running the Code
 
 Note that our code is designed to be reproducible. We use `torch.use_deterministic_algorithms(True)`.
 For some of the code, this will induce an error. It is suggested that we set the environment
@@ -144,7 +150,7 @@ The results of the evaluation will be saved at the same file `./output/[MODELTYP
 After running all the experiments needed, check out the notebook [here](notebooks/Reproduce.ipynb).
 
 
-# File structure
+## File structure
 
 <details>
 <summary>File structure</summary>
