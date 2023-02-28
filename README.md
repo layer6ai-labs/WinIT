@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://layer6.ai/"><img src="https://github.com/layer6ai-labs/WinIT/blob/main/logs/logobox.jpg" width="180"></a>
+<a href="https://layer6.ai/"><img src="https://github.com/layer6ai-labs/WinIT/blob/main/logos/logobox.jpg" width="180"></a>
 </p>
 
 ## ICLR 2023 WinIT: Temporal Dependencies in Feature Importance for Time Series Prediction
